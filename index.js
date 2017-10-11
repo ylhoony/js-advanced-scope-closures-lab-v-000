@@ -18,3 +18,13 @@ function produceTipCalculator(rate) {
     return amount * rate;
   }
 }
+
+function createDriver() {
+  let driverId = 0;
+  return class Driver {
+    constructor(name) {
+      this.id = ++driverId;
+      this.name = name;
+    }
+  }
+}
