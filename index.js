@@ -1,4 +1,3 @@
-
 function produceDrivingRange(blockRange) {
   return function calculate(x, y) {
     const blockX = parseInt(x.slice(0, 2));
